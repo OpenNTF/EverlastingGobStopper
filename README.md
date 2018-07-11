@@ -36,3 +36,4 @@ This way the app starts just like a native app without need for logging in again
 The above approach can not solve some other features that a user will expect from a native mobile app:
 - [deep linking](https://en.wikipedia.org/wiki/Deep_linking)
 - push notifications (at least not on iOS)
+- save navigation state to start with the latest used URL next time
