@@ -1,6 +1,5 @@
 var app = angular.module("loginApp", []);
 app.controller('loginCtrl', ['$scope', '$http', function($scope, $http) {
-    console.log("hääää");
     $scope.login = function() {
         console.info('Username ist: ' + $scope.username);
         $http.post('api/login', { username: $scope.username, password: $scope.password }).then(
@@ -15,4 +14,8 @@ app.controller('loginCtrl', ['$scope', '$http', function($scope, $http) {
                 console.log(err);
             });
     };
+    $scope.mode = 'login';
+    if (localStorage.getItem('token') !== null) {
+        $scope.mode = 'launch';
+    }
 }]);

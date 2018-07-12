@@ -33,7 +33,12 @@
             </header>
 
             <div class="container">
-                <div class="download-link-list col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                <div class="col-md-8" ng-show="mode==='launch'">
+                    Launching
+
+                </div>
+
+                <div class="download-link-list col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" ng-show="mode==='login'">
                     <div class="container show-grid-bottom form">
 
                         <form action="?" method="post">
