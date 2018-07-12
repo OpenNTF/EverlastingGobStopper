@@ -1,0 +1,13 @@
+Dim session as New NotesSession
+Dim request as NotesHTTPRequest
+Dim response as String
+Dim url as String
+
+'===== Perform HTTP call to Domino server to get array of application info =====
+Set request = session.CreateHTTPRequest()
+url = "http://www.texasswede.com/hackaton/AppStore.nsf/getApplicationList.json?OpenAgent&format=json"
+response = request.Get(url)
+
+'===== Parse response (string containing JSON) and display =====
+
+'*** add code here ***
