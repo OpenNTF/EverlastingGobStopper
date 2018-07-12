@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C12582C8000081D2" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="20e" sequence="6" unid="60D936432485DBD485256720005A4662">
+<created><datetime>19990222T112602,58-05</datetime></created>
+<modified><datetime dst="true">20180712T020533,59+02</datetime></modified>
+<revised><datetime dst="true">20130625T104012,08-04</datetime></revised>
+<lastaccessed><datetime dst="true">20180712T020533,59+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20180712T020533,59+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$TITLE"><text>next2.gif</text></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+<item name="$ImageNames" sign="true"><text>next2.gif</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item></note>

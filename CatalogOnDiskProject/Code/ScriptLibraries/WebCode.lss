@@ -1,0 +1,74 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+Option Public
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Function WebReturnErrorAlert (strErrorMsg As String, strURL As String) As String
+Declare Function WebReturnParent (strURL As String)
+Declare Function WebReturnErrorForm(strErrorMsg As String, strURL As String) As String
+Declare Function WebReturnCurrent (strURL As String) As String
+
+'++LotusScript Development Environment:2:5:(Declarations):0:10
+
+'++LotusScript Development Environment:2:1:WebReturnErrorAlert:1:8
+Function WebReturnErrorAlert (strErrorMsg As String, strURL As String) As String
+	'
+	'Returns an alert message and loads a URL - if the URL is blank, a back function is returned
+	'
+	Const strHTML1 = "<script language=""JavaScript""> alert("""
+	Const strHTML2 = """); "
+	Const strHTML3 = "history.back(); "
+	Const strHTML4 = "window.location = """
+	Const strHTML5 = """; "
+	Const strHTML6 = "</script>"
+	
+	If strURL = "" Then
+		WebReturnErrorAlert = strHTML1 & strErrorMsg & strHTML2 & strHTML3 & strHTML6
+	Else
+		WebReturnErrorAlert = strHTML1 & strErrorMsg & strHTML2 & strHTML4 & strURL & strHTML5 & strHTML6
+	End If
+End Function
+'++LotusScript Development Environment:2:1:WebReturnParent:1:8
+Function WebReturnParent (strURL As String)
+	'
+	'Loads a URL in the parent window of the current window
+	'
+	Const strHTML1 = "<script language=""JavaScript""> window.parent.location = """
+	Const strHTML2 = """; </script>"
+	
+	WebReturnParent = strHTML1 & strURL & strHTML2
+End Function
+'++LotusScript Development Environment:2:1:WebReturnErrorForm:1:8
+Function WebReturnErrorForm(strErrorMsg As String, strURL As String) As String
+	'
+	'Returns an error form and loads a URL - if the URL is blank, a back function is returned
+	'
+	Const strHTML1 = "<style type=""text/css""> body {font-family: ""Arial""} </style><body bgcolor=""#ffffff""><b>** PROCESSING ERROR **</b><p><hr><p><h4>"
+	Const strHTML2 =  "</h4><p><p><a href=""javascript: onClick="""
+	Const strHTML3 = "history.back(); """
+	Const strHTML4 = "window.location = """
+	Const strHTML5 = """; """
+	Const strHTML6 = "><p>Go Back</a>"
+	
+	If strURL = "" Then
+		WebReturnErrorForm = strHTML1 & strErrorMsg & strHTML2 & strHTML3 & strHTML6
+	Else
+		WebReturnErrorForm = strHTML1 & strErrorMsg & strHTML2 & strHTML4 & strURL & strHTML5 & strHTML6
+	End If
+End Function
+'++LotusScript Development Environment:2:1:WebReturnCurrent:1:8
+Function WebReturnCurrent (strURL As String) As String
+	'
+	'Returns an alert message and loads a URL - if the URL is blank, a back function is returned
+	'
+	Const strHTML1 = "<script language=""JavaScript""> "
+	Const strHTML2 = "history.back(); "
+	Const strHTML3 = "window.location = """
+	Const strHTML4 = """; "
+	Const strHTML5 = "</script>"
+	
+	If strURL = "" Then
+		WebReturnCurrent = strHTML1 & strHTML2 & strHTML5
+	Else
+		WebReturnCurrent = strHTML1 & strHTML3 & strURL & strHTML4 & strHTML5
+	End If
+End Function
