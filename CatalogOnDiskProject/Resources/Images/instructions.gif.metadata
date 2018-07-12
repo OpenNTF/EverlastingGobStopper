@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C12582C8000081D2" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="262" sequence="5" unid="8D8174EE5996858B052569A7006F7EF6">
+<created><datetime>20001130T151749,98-05</datetime></created>
+<modified><datetime dst="true">20180712T020533,99+02</datetime></modified>
+<revised><datetime dst="true">20130625T104012,48-04</datetime></revised>
+<lastaccessed><datetime dst="true">20180712T020533,99+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20180712T020533,99+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+<item name="$ImageNames" sign="true"><text>instructions.gif</text></item>
+<item name="$TITLE" sign="true"><textlist><text>instructions.gif</text><text>instructions.gif</text></textlist></item>
+<item name="$DesignerVersion" sign="true"><text>6</text></item></note>
