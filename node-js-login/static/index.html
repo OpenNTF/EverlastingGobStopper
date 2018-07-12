@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#222222" />
 
     <title>Your global Login</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/app.js"></script>
+    <script id="worker2" type="javascript/worker">
+        importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js"); workbox.precaching.precacheAndRout([]);
+    </script>
 </head>
 
 <body ng-app="loginApp" ng-controller="loginCtrl">

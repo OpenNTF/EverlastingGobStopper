@@ -1,0 +1,20 @@
+{
+    "short_name": "Login",
+    "name": "Your global Login",
+    "icons": [{
+            "src": "img/gobstopper192.jpg",
+            "type": "image/jpg",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/gobstopper512.jpg",
+            "type": "image/jpg",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/maps/?source=pwa",
+    "background_color": "#222222",
+    "display": "standalone",
+    "scope": "/maps/",
+    "theme_color": "#222222"
+}
