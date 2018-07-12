@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='sharedfield' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.10'
+ replicaid='C12582C8000081D2'>
+<noteinfo noteid='2c6' unid='B77E552B4AE180A385256C7000677E99' sequence='11'>
+<created><datetime>20021113T135026,17-05</datetime></created>
+<modified><datetime dst='true'>20180712T020534,43+02</datetime></modified>
+<revised><datetime dst='true'>20130625T104012,92-04</datetime></revised>
+<lastaccessed><datetime dst='true'>20180712T020534,43+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20180712T020534,43+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<revisions><datetime dst='true'>20061006T153650,03-04</datetime><datetime
+ dst='true'>20080527T080932,68-04</datetime><datetime>20121101T190208,54-05</datetime><datetime
+ dst='true'>20130625T103657,42-04</datetime></revisions>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$TITLE'><text>$TemplateBuild</text></item>
+<item name='$Fields'><text>$TemplateBuild</text></item>
+<item name='$Flags'><text/></item>
+<item name='$Info' sign='true'><text>$TemplateBuild</text></item>
+<item name='$Body' summary='true' sign='true'>
+<rawitemdata type='1'>
+gQKC/1IAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgwQBAIX/CAAAAAAA3QYAAIr/iv8yAIoAAAUAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAJFRlbXBsYXRlQnVpbGTeBgAAiv+F/wgAAAAAAA==
+</rawitemdata></item>
+<item name='$TemplateBuild' sign='true'><text>9.0.1</text></item>
+<item name='$TemplateBuildName' sign='true'><text>StdNotesCatalog</text></item>
+<item name='$TemplateBuildDate' sign='true'><datetime dst='true'>20130625T103833,00-04</datetime></item>
+<item name='$TemplateBuildTool' sign='true'><text>CICO</text></item></note>
+

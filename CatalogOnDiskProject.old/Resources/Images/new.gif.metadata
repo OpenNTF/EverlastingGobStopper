@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.10" replicaid="C12582C8000081D2" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="29a" sequence="5" unid="0DE2F94C01172FC0852569AB005A050B">
+<created><datetime>20001204T112315,31-05</datetime></created>
+<modified><datetime dst="true">20180712T020534,27+02</datetime></modified>
+<revised><datetime dst="true">20130625T104012,76-04</datetime></revised>
+<lastaccessed><datetime dst="true">20180712T020534,27+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20180712T020534,27+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$Flags"><text>34Ci</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+<item name="$ImageNames" sign="true"><text>new.gif</text></item>
+<item name="$TITLE" sign="true"><textlist><text>new.gif</text><text>new.gif</text></textlist></item>
+<item name="$Comment" sign="true"><text>action button dropdown </text></item></note>
