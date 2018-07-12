@@ -17,5 +17,7 @@ app.controller('loginCtrl', ['$scope', '$http', function($scope, $http) {
     $scope.mode = 'login';
     if (localStorage.getItem('token') !== null) {
         $scope.mode = 'launch';
+        let token = localStorage.getItem('token');
+        $http.post('api/getltpatoken', { token: token }).then(function(resp) {}, function(err) {});
     }
 }]);

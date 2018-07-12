@@ -15,4 +15,9 @@ app.post('/api/login', function(request, response) {
     response.send({ status: 'ok', token: token });
 
 });
+app.post('/api/getltpatoken', function(request, resp) {
+    let token = request.body.token;
+    let decoded = jwt.verify(token, secKey);
+    console.dir(decoded);
+});
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
