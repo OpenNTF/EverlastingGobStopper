@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.10'
  replicaid='C12582C8000081D2'>
-<noteinfo noteid='312' unid='83400C684F9913D2C12582C8000234A8' sequence='2'>
-<created><datetime dst='true'>20180712T022405,52+02</datetime></created>
-<modified><datetime dst='true'>20180712T024549,69+02</datetime></modified>
-<revised><datetime dst='true'>20180712T024549,68+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20180712T024549,69+02</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20180712T022405,53+02</datetime></addedtofile></noteinfo>
+<noteinfo noteid='31a' unid='E7A836F937DF494AC12582C80005AB29' sequence='3'>
+<created><datetime dst='true'>20180712T030154,97+02</datetime></created>
+<modified><datetime dst='true'>20180712T030201,44+02</datetime></modified>
+<revised><datetime dst='true'>20180712T030201,43+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20180712T030201,44+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20180712T030156,47+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Thomas Hampel/OU=Germany/O=IBM</name></updatedby>
 <wassignedby><name>CN=Thomas Hampel/OU=Germany/O=IBM</name></wassignedby>
 <item name='$Comment' sign='true'><text/></item>
@@ -14,14 +14,11 @@
 <rawitemdata type='1'>
 X/8QAAIADwAHAAAAAAAAAA==
 </rawitemdata></item>
-<item name='$TITLE'><text>index.html</text></item>
 <item name='$Info' sign='true'>
 <rawitemdata type='1'>
 hhgBAIAAAAAAgQAAAQABAP///wAQAAAA
 </rawitemdata></item>
-<item name='$Flags'><text>P</text></item>
-<item name='$WebFlags'><text>H</text></item>
-<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$WebFlags' sign='true'><text>H</text></item>
 <item name='$$ScriptName' summary='false' sign='true'><text>index.html</text></item>
 <item name='$Body' sign='true'>
 <rawitemdata type='1'>
@@ -300,5 +297,8 @@ bi5qcwDSCAkAAAD/AN4GAACF/64C3gYAAK4Ahf9/AAQAAAoiIGludGVncml0eT0ic2hhMzg0LTBt
 U2JKREVIaWFsZm11QkJRUDZBNFFycHJxNU9WZlczN1BSUjNqNUVMcXhzczF5VnFPdG5lcG5IVlA5
 YUo3eFMiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiPjwvc2NyaXB0PgCBAoMEAQCF/xEABAAACiAg
 PC9ib2R5PgCBAoMEAQCF/w8ABAAACjwvaHRtbD4A
-</rawitemdata></item></note>
+</rawitemdata></item>
+<item name='$Flags'><text>P</text></item>
+<item name='$TITLE' sign='true'><text>dummy.html</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
 
