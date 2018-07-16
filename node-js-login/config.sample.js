@@ -3,5 +3,6 @@
 
 module.exports = {
     jsonSecret: 'yourSecret',
+    domain: 'myLTPADomain',
     dominoLTPASecret: 'myLTPASecreteKey'
 }
